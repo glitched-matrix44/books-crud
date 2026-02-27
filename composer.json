@@ -1,0 +1,20 @@
+{
+    "name": "de/books-crud",
+    "description": "A reusable Laravel CRUD package for managing books",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "De\\BooksCrud\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "De\\BooksCrud\\BooksCrudServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
