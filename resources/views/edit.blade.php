@@ -6,7 +6,7 @@
 <body>
     <h1>Edit Book (Package)</h1>
 
-    <form action="{{ route('bookscrud.update', $book->id) }}" method="POST">
+    <form action="{{ route('bookscrud.update', $book) }}" method="POST">
         @csrf
         @method('PUT')
 
