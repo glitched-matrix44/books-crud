@@ -1,5 +1,5 @@
 {
-    "name": "de/books-crud",
+    "name": "glitched_matrix44/books-crud",
     "description": "A reusable Laravel CRUD package for managing books",
     "type": "library",
     "license": "MIT",
